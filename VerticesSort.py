@@ -1,3 +1,6 @@
+#A script for sorting through and pairing up all of the items in a list of tuples, returning a series of lists each containing where the tuples were paired and linked.
+#For example; the input ([1,2],[1,3],[2,4],[5,7],[5,8],[6,8]) would return [1,2,3,4],[5,7,8,6].
+#Potentially useful in matrix functions where you want to pair together vertices for e.g. subdivision, who knows 
 def VerticesSort(vlist):
 
 	vertexlist=[]
